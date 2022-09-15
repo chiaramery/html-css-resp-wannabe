@@ -1,0 +1,18 @@
+/* Desktop: dai 769px in su */
+/* @media screen and (min-width: 769px) {
+    .steps{
+        width: 100vh;
+    }
+} */
+
+/* Tablet: dai 768px in giù */
+@media screen and (max-width: 768px) {
+    .container{
+        width: 95%;
+    }
+}
+
+/* Mobile: dai 480px in giù */
+@media screen and (max-width:480px){
+    
+}
