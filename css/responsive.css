@@ -14,5 +14,23 @@
 
 /* Mobile: dai 480px in giù */
 @media screen and (max-width:480px){
-    
+    .container{
+        position: relative;
+    }
+
+
+
+
+    .col-left{
+        position: absolute;
+        left: 50%;
+        top: 70%;
+        transform: translate(-50%);
+    }
+    .col-right{
+        position: absolute;
+        left: 50%;
+        top: 270%;
+        transform: translate(-50%);
+    }
 }
